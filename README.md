@@ -1,6 +1,10 @@
 # PXRD Converter
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22896194.svg)](https://doi.org/10.5281/zenodo.22896194)
+
 A simple desktop GUI for converting powder X-ray diffraction (PXRD) scan files into plain, portable formats — no instrument software required.
+
+**[Download PXRD_Converter.exe](https://github.com/Chaitanya09102001/PXRD-Converter-GUI/releases/latest)** — standalone Windows executable, no Python required.
 
 Built for quick, everyday use in the lab: browse to a scan file, click a button, get either a clean `.xy` coordinate file or an Excel spreadsheet ready to paste into Origin.
 
@@ -76,6 +80,30 @@ Both are optional processing steps — if you just want the data exactly as your
 - `.raw` (Bruker/Siemens binary) is intentionally **not** supported. It's a legacy/proprietary format rarely used by current instrument software — if your facility can export `.ras` or `.brml` instead (most can), use that.
 - If a file fails to parse, please open an issue with a sample file (or a snippet) so the parser can be extended.
 
+## Releases
+
+Download the latest `.exe` and instructions PDF from the [Releases page](https://github.com/Chaitanya09102001/PXRD-Converter-GUI/releases).
+
+## How to cite
+
+If this tool was useful in your work, please cite it via its Zenodo DOI:
+
+> Gadekar, C. (2026). *PXRD Converter* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.22896194
+
+BibTeX:
+
+```bibtex
+@software{gadekar_pxrd_converter,
+  author    = {Gadekar, Chaitanya},
+  title     = {PXRD Converter},
+  year      = {2026},
+  version   = {v1.0.0},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.22896194},
+  url       = {https://doi.org/10.5281/zenodo.22896194}
+}
+```
+
 ## License
 
-MIT License active.
+MIT (or your preferred license — update this section before publishing).
