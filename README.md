@@ -106,4 +106,4 @@ BibTeX:
 
 ## License
 
-MIT (or your preferred license — update this section before publishing).
+MIT License active.
