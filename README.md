@@ -1,4 +1,4 @@
-# PXRD-Converter-GUI
+# PXRD Converter
 
 A simple desktop GUI for converting powder X-ray diffraction (PXRD) scan files into plain, portable formats — no instrument software required.
 
@@ -78,4 +78,4 @@ Both are optional processing steps — if you just want the data exactly as your
 
 ## License
 
-MIT License.
+MIT License active.
